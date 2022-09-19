@@ -1,0 +1,12 @@
+<div class= "textPosts">
+    {{#each this}}
+    <section class="textPost">
+        <div class= "dash">
+            {{user.username}} on {{format_date created_at}}
+        </div>
+        <div class= "text">
+            {{textarea_text}}
+        </div>
+    </section>
+    {{/each}}
+</div>
