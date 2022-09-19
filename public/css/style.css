@@ -10,3 +10,60 @@ body, html, input, textarea {
     padding: 0;
     margin: 0;
 }
+header {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ffff;
+}
+header h1 {
+    font-size: 16px;
+}
+main {
+    flex: 1;
+}
+
+
+a {
+    text-decoration: none;
+    color: var(--pink-color);
+    font-weight: bold;
+    transition: color .3s;
+}
+a:hover {
+    color: var(--lightpink-color);
+}
+.homepage {
+    text-decoration: none;
+    color: var(--pink-color);
+    font-weight: bold;
+    transition: color .3s;
+    margin: 20px;
+}
+.title {
+    margin: 25px;
+    padding: 10px;
+    font-size: 35px;
+    color: var(--lightpink-color);
+}
+.newPostButton {
+    color: #ffff;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.newPostButton:hover {
+    color: #ffff;
+}
+button {
+    background-color: var(--pink-color);
+    padding: 2%;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 7px;
+}
+button:hover {
+    background-color: var(--lightpink-color);
+}
