@@ -67,3 +67,22 @@ button {
 button:hover {
     background-color: var(--lightpink-color);
 }
+textarea, input {
+    padding: 1%;
+    border-radius: 7px;
+    border: 2px solid #ffff;
+}
+textarea {
+    min-width: 50%;
+    min-height: 100px;
+}
+form label {
+    display: block;
+}
+.container {
+    width: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
