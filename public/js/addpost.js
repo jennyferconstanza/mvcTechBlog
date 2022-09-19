@@ -18,4 +18,4 @@ async function newForm(event) {
         alert(response.postTextUpdate);
     }
 }
-document.querySelector(".newPostForm").addEventListener("submite", newForm)
+document.querySelector(".newPostForm").addEventListener("submit", newForm)
