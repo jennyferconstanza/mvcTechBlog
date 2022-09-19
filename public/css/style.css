@@ -1,0 +1,12 @@
+:root {
+    --pink-color: #eb3188;
+    --lightpink-color: #ffb3d6;
+}
+*{
+    box-sizing: border-box;
+}
+body, html, input, textarea {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
