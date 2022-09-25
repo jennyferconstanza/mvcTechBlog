@@ -1,8 +1,6 @@
-const e = require("express");
-
 async function signupForm(event){
     event.preventDefault();
-
+    // gets data from form
     const username = document.querySelector("#userSignUp").value.trim();
     const email = document.querySelector("#emailSignUp").value.trim();
     const password = document.querySelector("#passwordSign").value.trim();

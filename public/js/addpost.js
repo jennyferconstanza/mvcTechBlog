@@ -13,9 +13,9 @@ async function newForm(event) {
         }
     });
     if (response.ok){
-    document.location.replace("/userDashboard");
+    document.location.replace("/userDashboard/");
     } else {
-        alert(response.postTextUpdate);
+        alert(response.statusText);
     }
 }
 document.querySelector(".newPostForm").addEventListener("submit", newForm)

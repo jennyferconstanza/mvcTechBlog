@@ -1,5 +1,3 @@
-const { response } = require("express");
-
 async function loginForm(event) {
     event.preventDefault();
 
